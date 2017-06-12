@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
+gem 'simple_form'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
