@@ -12,16 +12,16 @@
       <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
-          You know
+          Living the
           <br />
-          you need
+          Los Angeles
           <br />
-          to code
+          Lifestyle
         </div>
       <% end %>
     </div>
     <div class="col col-sm-4 hidden-xs-down slogan">
-      Splurting out unsolicited advice about entrepreneurship since 2016
+      Splurting out unsolicited advice since 2017
     </div>
     <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
       <!-- Button trigger modal -->
@@ -44,9 +44,9 @@
         </div>
         <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Fear is the disease. Hustle is the antidote." %>
+            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "If you can make it in Los Angeles, you can make it any where." %>
             <br />
-            <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Travis Kalanick" %>
+            <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Arnold Schwarzenegger" %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -74,11 +74,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6">
-          <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+          <%= link_to "This is hilarious, show me more", root_path, class: 'next-quote' %>
         </div>
         <div class="col-12 col-sm-6 footer-blurb">
-          Proudly hacked in Los Angeles, CA by <a href="http://thefirehoseproject.com">Steven</a><br />
-          Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+          Proudly hacked in Los Angeles, CA by <a href="http://www.thefirehoseproject.com/">Steven Almaraz</a><br />
         </div>
       </div>
     </div>
